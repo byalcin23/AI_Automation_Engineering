@@ -1,0 +1,54 @@
+{
+  "tickets": [
+    {
+      "id": "JIRA-001",
+      "title": "Database replication lag detected on prod-db-02",
+      "description": "Monitoring alerts show replication lag of 45 seconds. This is affecting read replicas. Started at 14:32 UTC."
+    },
+    {
+      "id": "JIRA-002",
+      "title": "Request access to staging environment",
+      "description": "New team member needs SSH access to staging servers and read access to CloudWatch logs."
+    },
+    {
+      "id": "JIRA-003",
+      "title": "Deploy new microservice version 2.1.4",
+      "description": "Release notes: Performance improvements, bug fixes. Ready for prod deployment. Blue-green deployment planned."
+    },
+    {
+      "id": "JIRA-004",
+      "title": "High CPU usage on api-server-07",
+      "description": "CPU spike to 95% detected. Memory is also at 88%. Process 'nginx' consuming 60% CPU. Started 10 minutes ago."
+    },
+    {
+      "id": "JIRA-005",
+      "title": "Update monitoring thresholds for disk space",
+      "description": "Current alert at 80% disk usage is too late. Propose changing to 70% for early warning. Affects all prod servers."
+    },
+    {
+      "id": "JIRA-006",
+      "title": "Configure new Prometheus scrape job",
+      "description": "Add Prometheus metrics collection for new internal service. Target: localhost:9090. Interval: 30s."
+    },
+    {
+      "id": "JIRA-007",
+      "title": "DNS resolution failing intermittently",
+      "description": "CoreDNS pods showing high restart count. Some services failing to resolve internal DNS. P1 impact on deployments."
+    },
+    {
+      "id": "JIRA-008",
+      "title": "Investigate unusual network traffic",
+      "description": "Security team flagged unusual outbound traffic from prod-web-03. Investigate potential breach or misconfiguration."
+    },
+    {
+      "id": "JIRA-009",
+      "title": "Update Terraform modules for S3 buckets",
+      "description": "Add encryption at rest and versioning to all S3 bucket definitions. Update documentation."
+    },
+    {
+      "id": "JIRA-010",
+      "title": "Add disk space dashboard to Grafana",
+      "description": "Create new dashboard showing disk usage trends across all servers. Add alerts to dashboard."
+    }
+  ]
+}
